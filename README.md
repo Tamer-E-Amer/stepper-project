@@ -49,8 +49,8 @@ export const stepperData = [
 
 ## 📸 Demo
 
-> **Coming Soon!**  
-> [It will be here](http://link.com)
+> **Published on Vercel**  
+> [Stepper project](https://stepper-three-omega.vercel.app/)
 
 ---
 
@@ -60,7 +60,7 @@ Here are some screenshots showcasing the features of the project:
 
 ![Screenshot 1](public/imgPrev1.png)
 
-![Screenshot 2](public/imgPrev2.png)
+![Screenshot 2](public/imgprev2.png)
 
 ![Screenshot 3](public/imgPrev.png)
 
