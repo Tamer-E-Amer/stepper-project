@@ -17,9 +17,9 @@ function App() {
   };
 
   return (
-    <div className="container mx-auto my-auto flex h-screen max-w-[768px] flex-col items-start justify-between bg-blue-950 p-16">
+    <div className="container mx-auto my-auto flex h-screen max-w-[768px] flex-col items-start justify-between bg-blue-950 p-4">
       {/* setppers number */}
-      <div className="flex w-full items-center justify-around rounded-full bg-stone-300 px-4 py-2">
+      <div className="flex w-full flex-wrap items-start justify-center gap-4 rounded-md bg-stone-300 px-4 py-2">
         {stepperData.map((item) => (
           <Stepper
             key={item.id}
@@ -35,7 +35,7 @@ function App() {
       </div>
       {/* Buttons */}
       <div
-        className={`flex w-full items-center ${step > 0 ? 'justify-between' : 'justify-end'} gap-16 rounded-full bg-stone-300 px-4 py-2`}
+        className={`flex w-full flex-col items-center gap-2 sm:flex-row ${step > 0 ? 'justify-between' : 'justify-end'} rounded-md bg-stone-300 p-4`}
       >
         {step > 0 && (
           <Button handlePervious={handlePervious} step={step}>

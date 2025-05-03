@@ -64,6 +64,8 @@ Here are some screenshots showcasing the features of the project:
 
 ![Screenshot 3](public/imgPrev.png)
 
+![Screenshot 4](public/imgPrev4.png)
+
 ## 🛠️ Installation and Usage
 
 Follow these steps to run the project locally:
